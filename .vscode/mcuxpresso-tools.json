@@ -1,0 +1,16 @@
+{
+  "version": "25.3",
+  "toolchainPath": "C:/NXP/MCUXpressoIDE_25.6.136/ide/tools",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "projectType": "cmake-freestanding",
+  "projectName": "an-mcxa174-mip-panel-demo",
+  "sdk": {
+    "version": "26.3.0",
+    "path": "",
+    "boardId": "frdmmcxa174",
+    "deviceId": "MCXA174",
+    "coreId": "cm33_core0"
+  }
+}

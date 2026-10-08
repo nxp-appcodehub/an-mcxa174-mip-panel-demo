@@ -1,0 +1,52 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-09-14T02:30:59Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.28"
+  },
+  "name": "an-mcxa174-mip-panel-demo",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/bbc31adf-30c7-48ff-9648-801129eb2860",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-bbc31adf-30c7-48ff-9648-801129eb2860",
+      "name": "an-mcxa174-mip-panel-demo",
+      "versionInfo": "1.0",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
+      "downloadLocation": "https://github.com/nxp-appcodehub/an-mcxa174-mip-panel-demo",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-bbc31adf-30c7-48ff-9648-801129eb2860---1ffe6406-89b4-415b-9902-0d6549960424",
+      "name": "ARM-software/CMSIS_6",
+      "versionInfo": "v6.1.0",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: unknown",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-bbc31adf-30c7-48ff-9648-801129eb2860"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-bbc31adf-30c7-48ff-9648-801129eb2860",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-bbc31adf-30c7-48ff-9648-801129eb2860---1ffe6406-89b4-415b-9902-0d6549960424"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "debug",
+      "generator": "Ninja",
+      "binaryDir": "${fileDir}/${presetName}",
+      "toolchainFile": "${fileDir}/cmake/toolchain/toolchain.cmake",
+      "inherits": "debug-env",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "debug",
+        "CONFIG_TOOLCHAIN": "armgcc"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "debug",
+      "displayName": "debug",
+      "configurePreset": "debug"
+    }
+  ],
+  "include": [
+    "mcux_include.json"
+  ]
+}
